@@ -23,6 +23,7 @@
     line-height: $base-font-size * 2
     padding: 0 $base-font-size
 
+
 .wy-menu-vertical
   header
     height: $base-font-size * 2
@@ -71,6 +72,17 @@
     padding: $gutter / 4 $gutter * 1.5
   li.current ul
     display: block
+  li.toctree-l2 > ul
+    display: none
+  li.toctree-l2.current > ul
+    display: block
+  li.toctree-l3 > a
+    background: darken($section-background-color, 30%)
+    padding: $gutter / 4 $gutter * 1.5
+    color: darken($text-medium, 15%)
+  li.toctree-l3.current > a
+    background: $white
+    color: $text-color
   li ul
     margin-bottom: 0
     display: none
