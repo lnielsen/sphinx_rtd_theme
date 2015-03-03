@@ -9,9 +9,9 @@ from sphinx_rtd_theme import __version__
 
 
 setup(
-    name='sphinx_rtd_theme',
+    name='sphinx_rtd_theme_guidelines',
     version=__version__,
-    url='https://github.com/snide/sphinx_rtd_theme/',
+    url='https://github.com/lnielsen/sphinx_rtd_theme/',
     license='MIT',
     author='Dave Snider',
     author_email='dave.snider@gmail.com',
