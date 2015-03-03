@@ -5,7 +5,7 @@
 
 """
 from setuptools import setup
-from sphinx_rtd_theme import __version__
+from sphinx_rtd_theme_guidelines import __version__
 
 
 setup(
@@ -18,8 +18,8 @@ setup(
     description='ReadTheDocs.org theme for Sphinx, 2013 version.',
     long_description=open('README.rst').read(),
     zip_safe=False,
-    packages=['sphinx_rtd_theme'],
-    package_data={'sphinx_rtd_theme': [
+    packages=['sphinx_rtd_theme_guidelines'],
+    package_data={'sphinx_rtd_theme_guidelines': [
         'theme.conf',
         '*.html',
         'static/css/*.css',
